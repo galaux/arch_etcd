@@ -7,5 +7,8 @@ augmented with several patch. Commits should be self-explanatory.
 
 ## TODO
 
-- [ ] data dir is created at install time, it thus does not belong to the package
+- [ ] data dir is created at install time, it thus does not belong to the
+      package
 - [ ] user `etcd` could be created by systemd
+- [ ] file `10-EnvironmentFile` should belong to
+      `/usr/lib/systemd/system/etcd.service.d`
